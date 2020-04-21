@@ -1,0 +1,111 @@
+/* untuk tablet */
+@media all and (max-width: 1000px) {
+
+    .card-img {
+        margin-left: 25%;
+    }
+
+    .card-img-center {
+        margin-left: 25%;
+    }
+
+    .hero-section {
+        position: absolute;
+        margin: 20px 0;
+        width: 50%;
+    }
+
+    .link-list {
+        padding-right: 10px;
+    }
+
+    .hero {
+        padding: 80px 65px;
+    }
+
+    .hero-image img {
+        display: none;
+    }
+
+    .contact {
+        padding: 40px 40px;
+    }
+
+    .contact-form {
+        flex-direction: column;
+    }
+
+    .contact-form input {
+        width: 500px;
+    }
+
+    .contact-form a {
+        width: 320px;
+    }
+
+
+}
+
+/* untuk smartphone */
+@media all and (max-width: 670px) {
+
+    .brand {
+        margin-left: 30px;
+    }
+
+    .link-list {
+        display: none;
+    }
+
+    .menu-icon {
+        color: #fff;
+        display: block;
+    }
+
+    .row {
+        margin: 0;
+        padding: 0;
+    }
+
+    .hero {
+        padding: 30px;
+    }
+
+    .hero-section{
+        margin: 0;
+    }
+
+    .hero-image img {
+        display: none;
+    }
+
+    .team {
+        padding: 200px 100px;
+    }
+
+    .card-img {
+        margin-left: 19.5%;
+    }
+
+    .card-img-center {
+        margin-left: 19.5%;
+    }
+
+    .contact-form input {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .submit {
+        width: 100%;
+    }
+
+    footer img {
+        margin-left: 30px;
+    }
+
+    footer p {
+        margin-right: 30px;
+    }
+
+}
