@@ -1,0 +1,135 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <title>Digitalent Scholarship | C25 Project Team</title>
+</head>
+<body>
+    <header>
+        <div class="brand">
+            <img src="./img/brand.png" alt="brand-logo">
+        </div>
+        <span class="fa fa-bars menu-icon"></span>
+        <div class="nav-links">
+            <ul class="link-list">
+                <li class="link-item">
+                   <a href="#hero">Home</a>
+                </li>
+                <li class="link-item">
+                   <a href="#team">Team</a>
+                </li>
+                <li class="link-item">
+                   <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <section>
+                <div class="row hero" id="hero">
+                    <div class="hero-section">
+                        <h3 class="site-title">Digitalent Scholarship</h3>
+                        <h1 class="site-desc">HTML, CSS, and JavaScript</h1>
+                        <p class="site-quotes">Without change, there is no innovation, creativity, or incentive for improvement.
+                        Those who initiate change will have a better opportunity to manage the inevitable change.</p>
+                        <a href="#" class="btn btn-title">Get Started</a>
+                        </div>
+                    <div class="hero-image">
+                        <img src="./img/undraw_team_spirit_hrr4.svg" alt="hero">
+                    </div>
+                </div>
+        </section>
+    </header>
+
+    <section class="team" id="team">
+        <h1 class="team-title animated fadeInUp delay-1s faster">OUR AWESOME TEAM</h1>
+        <div class="row">
+            <div class="col">
+                <div class="card animated fadeInUp delay-1s">
+                    <div class="card-img">
+                        <img src="./img/dwi.jpeg" alt="dwi">
+                    </div>
+                    <p class="team-name">Dwi Wahyudi Wintoro</p>
+                    <h3 class="team-position">UI / UX Designer</h3>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card animated fadeInUp delay-2s">
+                    <div class="card-img">
+                        <img src="./img/brillianita.jpg" alt="brillianita">
+                    </div>
+                    <p class="team-name">Brillianita Rezki Hijnur</p>
+                    <h3 class="team-position">Web Developer</h3>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card animated fadeInUp delay-3s">
+                    <div class="card-img">
+                        <img src="./img/bianca.jpg" alt="bianca">
+                    </div>
+                    <p class="team-name">Bianca Belinda</p>
+                    <h3 class="team-position">Front-End Developer</h3>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card animated fadeInUp delay-4s">
+                    <div class="card-img">
+                        <img src="./img/diah.jpg" alt="diah">
+                    </div>
+                    <p class="team-name">Diah Ayu Citro Resmi</p>
+                    <h3 class="team-position">Web Developer</h3>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card animated fadeInUp delay-5s">
+                    <div class="card-img-center">
+                        <img src="./img/cindy.jpg" alt="cindy">
+                    </div>
+                    <p class="team-name">Cindy Picauly Prameswary</p>
+                    <h3 class="team-position">Web Developer</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-form">
+            <h1 class="site-contact">Speak with us today</h1>
+            <input type="text" class="btn email" placeholder="Your Email">
+            <a class="btn submit">Subscribe</a>
+        </div>
+    </section>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>
+    <footer>
+        <div class="footer">
+            <img src="/img/brand.png" alt="logo">
+            <p>Copyright © Kelompok C25 DTS 2020. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+    //Get the button:
+    mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    </script>
+</body>
+</html>
