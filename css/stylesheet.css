@@ -136,12 +136,11 @@ header {
     display: inline-block;
     border-radius: 5px;
     border: 1px solid rgba(255, 255, 255, 0.7);
-    opacity: 1;
 }
 
 .btn:hover {
     transition: all ease-in-out 1.2s;
-    opacity: .8;
+    background-color: #A65CF0;
 }
 
 .primary-btn {
