@@ -1,117 +1,191 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/stylesheet.css">
-    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/circle.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="./img/fav.png">
-    <title>Digitalent Scholarship | C25 Project Team</title>
+    <title>Progate | C25_DTS20</title>
 </head>
 <body>
-    <header>
-        <div class="brand">
-            <img src="./img/brand.png" alt="brand-logo">
+<header>
+    <div class="container">
+        <div class="nav">
+            <div class="brand">
+                <img src="./img/brand.png" alt="header">
+            </div>
+            <span class="fa fa-bars menu-icon"></span>
+            <div class="nav-link">
+                <ul class="list-link">
+                    <li class="list-item"><a href="#media">Media</a></li>
+                    <li class="list-item"><a href="#team">Team</a></li>
+                    <li class="list-item"><a href="#hero">Home</a></li>
+                </ul>
+            </div>
         </div>
-        <span class="fa fa-bars menu-icon"></span>
-        <div class="nav-links">
-            <ul class="link-list">
-                <li class="link-item">
-                   <a href="#hero">Home</a>
+        <div class="hero" id="hero">
+            <div class="content">
+                <h4 class="content-title">Digitalent Scholarship 2020</h3>
+                <h1 class="content-to">HTML, CSS, and JavaScript</h1>
+                <p class="content-desc">Without change, there is no innovation, creativity, or incentive
+                for improvement. Those who initiate change will have a
+                better opportunity to manage the inevitable change.</p>
+                <a href="#" class="btn primary-btn">Get Started</a>
+            </div>
+        </div>
+        <div class="extra">
+            <div class="extra-content">
+                <div class="duration-img">
+                    <img src="./img/calendar.svg" alt="duration">
+                    <div class="duration-content">
+                        <h3 class="duration-title">Duration</h3>
+                        <p class="duration-desc">8 Weeks</p>
+                    </div>
+                </div>
+                <div class="duration-img">
+                    <img src="./img/github.svg" alt="github">
+                    <div class="duration-content">
+                        <h3 class="duration-title">Github</h3>
+                        <p class="duration-desc">C25_DTS20</p>
+                    </div>
+                </div>
+                <div class="mitra-img">
+                    <img src="./img/progatel.png" alt="progate">
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="main" id="team">
+        <div class="container">
+            <h1 class="team">OUR CORE TEAM</h1>
+            <ul class="cards">
+                <li class="cards-item">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./img/dwi.jpeg" alt="dwi">
+                        </div>
+                        <div class="card-content">
+                            <p class="card-title">Dwi Wahyudi Wintoro</p>
+                            <h4 class="card-pos">UI/UX Designer</h4>
+                        </div>
+                    </div>
                 </li>
-                <li class="link-item">
-                   <a href="#team">Team</a>
+                <li class="cards-item">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./img/bianca.jpg" alt="bianca">
+                        </div>
+                        <div class="card-content">
+                            <p class="card-title">Bianca Belinda</p>
+                            <h4 class="card-pos">Front-End Developer</h4>
+                        </div>
+                    </div>
                 </li>
-                <li class="link-item">
-                   <a href="#contact">Contact</a>
+                <li class="cards-item">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./img/brillianita.jpg" alt="brillianita">
+                        </div>
+                        <div class="card-content">
+                            <p class="card-title">Brillianita Rezki Hijnur</p>
+                            <h4 class="card-pos">Web Developer</h4>
+                        </div>
+                    </div>
+                </li>
+                <li class="cards-item">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./img/cindy.jpg" alt="cindy">
+                        </div>
+                        <div class="card-content">
+                            <p class="card-title">Cindy Picauly Prameswary</p>
+                            <h4 class="card-pos">Mobile Developer</h4>
+                        </div>
+                    </div>
+                </li>
+                <li class="cards-item">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./img/diah.jpg" alt="diah">
+                        </div>
+                        <div class="card-content">
+                            <p class="card-title">Diah Ayu Citro Resmi</p>
+                            <h4 class="card-pos">Project Manager</h4>
+                        </div>
+                    </div>
                 </li>
             </ul>
         </div>
-        <section>
-                <div class="row hero" id="hero">
-                    <div class="hero-section">
-                        <h3 class="site-title">Digitalent Scholarship</h3>
-                        <h1 class="site-desc">HTML, CSS, and JavaScript</h1>
-                        <p class="site-quotes">Without change, there is no innovation, creativity, or incentive for improvement.
-                        Those who initiate change will have a better opportunity to manage the inevitable change.</p>
-                        <a href="#" class="btn btn-title">Get Started</a>
+    </div>
+    <div class="media" id="media">
+        <div class="container">
+            <h1 class="media-title">MEDIA PARTNER</h1>
+            <ul class="medias">
+                <li class="medias-item">
+                    <div class="card-media">
+                        <div class="media-img">
+                            <img src="./img/cisco.png" alt="cisco">
                         </div>
-                    <div class="hero-image">
-                        <img src="./img/undraw_team_spirit_hrr4.svg" alt="hero">
                     </div>
-                </div>
-        </section>
-    </header>
+                </li>
+                <li class="medias-item">
+                    <div class="card-media">
+                        <div class="media-img">
+                            <img src="./img/redhat.jpg" alt="redhat">
+                        </div>
+                    </div>
+                </li>
+                <li class="medias-item">
+                    <div class="card-media">
+                        <div class="media-img">
+                            <img src="./img/google.png" alt="google">
+                        </div>
+                    </div>
+                </li>
+                <li class="medias-item">
+                    <div class="card-media">
+                        <div class="media-img">
+                            <img src="./img/progatel.png" alt="progate">
+                        </div>
+                    </div>
+                </li>
+                <li class="medias-item">
+                    <div class="card-media">
+                        <div class="media-img">
+                            <img src="./img/kominfo.jpg" alt="kominfo">
+                        </div>
+                    </div>
+                </li>
+                <li class="medias-item">
+                    <div class="card-media">
+                        <div class="media-img">
+                            <img src="./img/digitalent.png" alt="digitalent">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</main>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>
+<footer>
+    <div class="container">
+     <div class="brand">
+         <img src="./img/Brand-footer.png" alt="footer">
+     </div>
+     <div class="copyright">
+         <p>Copyright © Kelompok C25 DTS 2020. All Rights Reserved.</p>
+     </div>
+    </div>
+ </footer>
 
-    <section class="team" id="team">
-        <h1 class="team-title animated fadeInUp delay-1s faster">OUR AWESOME TEAM</h1>
-        <div class="row">
-            <div class="col">
-                <div class="card animated fadeInUp delay-1s">
-                    <div class="card-img">
-                        <img src="./img/dwi.jpeg" alt="dwi">
-                    </div>
-                    <p class="team-name">Dwi Wahyudi Wintoro</p>
-                    <h3 class="team-position">UI / UX Designer</h3>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card animated fadeInUp delay-2s">
-                    <div class="card-img">
-                        <img src="./img/brillianita.jpg" alt="brillianita">
-                    </div>
-                    <p class="team-name">Brillianita Rezki Hijnur</p>
-                    <h3 class="team-position">Web Developer</h3>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card animated fadeInUp delay-3s">
-                    <div class="card-img">
-                        <img src="./img/bianca.jpg" alt="bianca">
-                    </div>
-                    <p class="team-name">Bianca Belinda</p>
-                    <h3 class="team-position">Front-End Developer</h3>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card animated fadeInUp delay-4s">
-                    <div class="card-img">
-                        <img src="./img/diah.jpg" alt="diah">
-                    </div>
-                    <p class="team-name">Diah Ayu Citro Resmi</p>
-                    <h3 class="team-position">Web Developer</h3>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card animated fadeInUp delay-5s">
-                    <div class="card-img-center">
-                        <img src="./img/cindy.jpg" alt="cindy">
-                    </div>
-                    <p class="team-name">Cindy Picauly Prameswary</p>
-                    <h3 class="team-position">Web Developer</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="contact" id="contact">
-        <div class="contact-form">
-            <h1 class="site-contact">Speak with us today</h1>
-            <input type="text" class="btn email" placeholder="Your Email">
-            <a class="btn submit">Subscribe</a>
-        </div>
-    </section>
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>
-    <footer>
-        <div class="footer">
-            <img src="./img/brand.png" alt="logo">
-            <p>Copyright © Kelompok C25 DTS 2020. All Rights Reserved.</p>
-        </div>
-    </footer>
-
-    <script type="text/javascript">
+ <script type="text/javascript">
     //Get the button:
     mybutton = document.getElementById("myBtn");
 
